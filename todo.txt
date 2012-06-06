@@ -1,0 +1,37 @@
+1. communiport used state
+    [o]
+2. IBytesConverter
+    [o]
+3. ICRCer
+    [o]
+4. opera config file(xml)
+    [o]
+5. xml name class
+    [o]
+
+2009-08-04
+6. hardware getstations by communitype
+    [o]
+    
+2009-08-10
+7. datafield value set in xml file
+    [o]
+8. device -> station
+    [o]
+9. check address
+    ??
+10. parse error tostring()
+11. remove same ip station
+    ??
+12. datafield default bytesconverter - xdgk.communi.originalconverter
+    [o]
+13. match crc or matchCheck
+    [o]
+14. hexconverter null string 
+15. not parse sured bytes
+    ??
+16. 1 send, n received
+17. not parse ensured datafield option
+18. 匹配成功后有剩余数据的处理。
+    [o]
+19. multi operadefine file

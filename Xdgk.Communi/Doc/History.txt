@@ -1,0 +1,105 @@
+﻿2011-12-30
+v0.11.0.0
+add crc calc begin position
+
+2011-09-28
+v0.10.0.0
+fire task executing event before GetSendBytes()
+
+2011-01-19
+v0.8.0.0
+change device.address type to int64
+
+2011-01-06
+v0.7.22.0
+change device address range 0 to int.max
+
+2011-01-05
+v0.7.21.0
+recevice pare crc calc error, for emdevice
+
+2010-12-09
+v0.7.8.0
+add station, device add edit form
+
+2010-12-08
+v0.7.7.0
+get communisoft from communisoftFactory
+
+2010-12-03
+v0.7.6.0
+
+2010-11-17
+v0.7.5.0
+modify xmlDeviceDefineBuild.Build
+
+v0.7.4.0
+add device.deleteFromCollection
+add station.RemoveFromCollection
+
+2010-11-16
+v0.7.3.0
+add CommuniSoft.UnDefineDeviceTypeCollection
+
+2010-11-12
+v0.7.2.0
+clipboard.settext empty string exception
+
+v0.7.1.0
+修改版本号标记方式
+
+2010-09-10
+v0.0.7.0	
+
+
+v0.0.6.0
+match received bytes length
+
+v0.0.5.1
+override taskStrategy ToString()
+
+v0.0.5.0
+bcmanager add bytesconvertercollection property
+throw addin register exception
+
+v0.0.4.0
+add AddressErrorResult, task.ParseReceived() match device address
+
+v0.0.3.0
+add littleEndian
+
+v0.0.2.0
+device add standard replaceoption
+
+v0.0.1.2
+device add name and remark
+
+v0.0.1.1
+socketlistener endacceptSocket Exception
+
+v0.0.1.0
+for fix socket connect error
+
+v0001
+add socketcommunitype .toxml()
+
+v0002
+station device task from objectbase
+
+v0003
+not find communiport task be move
+
+v0004
+datafield xml add bytes node
+
+v0005
+modify datafieldoption
+
+v0006
+remove socketcommuniport apm
+
+v0007
+add receive part length
+
+v0008
+bytesconvert rename to bc

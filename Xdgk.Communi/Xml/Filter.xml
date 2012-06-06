@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<filterdefines>
+  <filterdefine>
+    <communiporttype>SocketCommuniPort</communiporttype>
+    <filters>
+      <filter>
+        <name>test</name>
+        <pattern>7b 00</pattern>
+      </filter>
+    </filters>
+  </filterdefine>
+</filterdefines>

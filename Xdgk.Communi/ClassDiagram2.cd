@@ -1,0 +1,1097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Xdgk.Communi.Builder.CommuniSoftBuilder" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAAAAAAgAgAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\CommuniSoftBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Builder.DeviceDefineBuilderBase" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\DeviceDefineBuilderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Builder.HardwareBuilderBase" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\HardwareBuilderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Builder.DBHardwareBuilderBase" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAgAAAAFAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAE=</HashCode>
+      <FileName>Builder\HardwareBuilderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Builder.ListenBuilderBase" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\ListenBuilderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Builder.TaskFactoryCollectionBuilder" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\TaskFactoryCollectionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.BytesConverterCollection" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BytesConverter\BytesConverterCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.BytesConverterManager" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAAAAAAAAgAICAEAAAABAAEAAAAABAAAAAA=</HashCode>
+      <FileName>BytesConverter\BytesConverterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniDetail" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAQQhAABAQAAAAACAEAAAAAAAAAAIAAAAEAAAAEAAAA=</HashCode>
+      <FileName>CommuniDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniDetailQueue" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CommuniDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniFailDetail" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAQAgAAAQQAAAAACAAAAAAAAAAAAIAAAAAAIAQAAAAA=</HashCode>
+      <FileName>CommuniFailDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniFailDetailCollection" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CommuniFailDetailCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPort" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgkCgAIAAIAIAAAEDAAFAAgAAAAEgAICAQBIAGCACA=</HashCode>
+      <FileName>CommuniPort\CommuniPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPortCollection" Collapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommuniPort\CommuniPortCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPortFactory" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>CommuniPort\CommuniPortFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPortManager" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABQAASAEAAAAAAhAAUAAAAABAACAAAAAQTAAA=</HashCode>
+      <FileName>CommuniPort\CommuniPortManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPortState" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAQAAAQAAAAAAAAAAAAAAACAAAAAACAAA=</HashCode>
+      <FileName>CommuniPort\CommuniPortState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SerialCommuniPort" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAIAAIAIAAAAgAAMAAgAAAAEAAAAAAAAAGAAAA=</HashCode>
+      <FileName>CommuniPort\SerialCommuniPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SerialCommuniPortReadyState" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>CommuniPort\SerialCommuniPortState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketCommuniPort" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgIgAIAAKAIAAAAAACHAiwiAAQEQAARgEAQ0HgAAA=</HashCode>
+      <FileName>CommuniPort\SocketCommuniPort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketCommuniPortConnectedState" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>CommuniPort\SocketCommuniPortState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniSoft" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AREIIAARMCAqABAIwYIAMCABERAGAkABoAAWAGAABEE=</HashCode>
+      <FileName>CommuniSoft\CommuniSoft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniSoftFactory" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAAAEAAAAQAAAAAEAAAAAAAAAACAAAAEAA=</HashCode>
+      <FileName>CommuniSoft\CommuniSoftFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniType" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>CommuniType\CommuniType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniTypeFactory" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>CommuniType\CommuniTypeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SerialCommuniType" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAACAAACAAAABAAAgAAAACAAAEAAAEAAAUAAA=</HashCode>
+      <FileName>CommuniType\SerialCommuniType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SerialCommuniTypeNodeNames" Collapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAUAAQ=</HashCode>
+      <FileName>CommuniType\SerialCommuniTypeNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketCommuniType" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAIAAAAAAAAAQAAYAAAAAAAABAEACAAAAACAEA=</HashCode>
+      <FileName>CommuniType\SocketCommuniType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketCommuniTypeNodeNames" Collapsed="true">
+    <Position X="29.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAYAAAAAAEAAAAAAAAAAACAEA=</HashCode>
+      <FileName>CommuniType\SocketCommuniTypeNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CRCerCollection" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CRC\CRCerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CRCerManager" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAAAAAAAAAACAAAAAABAAAAAAAAAgAAABA=</HashCode>
+      <FileName>CRC\CRCerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DataField" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAEIoAEAAAAAAAAAQACAAQAAAEAQAECAkEoIQAAQAA=</HashCode>
+      <FileName>DataField\DataField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DataFieldCollection" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAlAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABQAAA=</HashCode>
+      <FileName>DataField\DatafieldCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DatafieldManager" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABKgAEAACAAAjAAADABAAAAAAAAABACAAAABABA=</HashCode>
+      <FileName>DataField\DatafieldManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Device" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIKIiAoBAIAwGIAUAFIKAQARAEAGFgGgQQADiNgASM=</HashCode>
+      <FileName>Device\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceCollection" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAEAEAAAABBAQAEAAAAEAACBAAAAAAA=</HashCode>
+      <FileName>Device\DeviceCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceDefine" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAABEAAAAAAAAAAQAAAAAAAAEAAIAAAACAAAAAA=</HashCode>
+      <FileName>Device\DeviceDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceDefineCollection" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Device\DeviceDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceDefineManager" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQAEACAAAAAAAAAAAAAAAAAAAQBAAAEAA=</HashCode>
+      <FileName>Device\DeviceDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceFactoryCollection" Collapsed="true">
+    <Position X="32.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Device\DeviceFactoryCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceFactoryManager" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Device\DeviceFactoryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DeviceState" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Device\DeviceState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskExecutingEventArgs" Collapsed="true">
+    <Position X="20.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskExecutedEventArgs" Collapsed="true">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.NotFindCommuniPortEventArgs" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ExceptionEventArgs" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CommuniPortReceivedEventArgs" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAACAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FDEventArgs" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KgAAAACAQAAAAAAAAABAAAAAAAAAIAAAAAAAACAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CollectionChangedEventArgs" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ConfigException" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception\ConfigException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FDManager" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAAAABAQAAAAAgAABAAIAAAAAQAAAAACAAAAAAA=</HashCode>
+      <FileName>FDManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Filter" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAQAAAAAAAAAAAAQQAACAAEgAAAIAAAAAAAA=</HashCode>
+      <FileName>Filter\Filter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FilterCollection" Collapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Filter\FilterCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FilterDefine" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Filter\FilterDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FilterNodeNames" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAAABAAAAAAABAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Filter\FilterDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FilterDefineCollection" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAI=</HashCode>
+      <FileName>Filter\FilterDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.FilterManager" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAEAAAABAA=</HashCode>
+      <FileName>Filter\FilterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.frmCommuniDetails" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAQCCAAABIAAACAAIACAIQAiAAAEQAQAAAAAAA=</HashCode>
+      <FileName>Forms\frmCommuniDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DBHardwareBuilder" Collapsed="true">
+    <Position X="5.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAgAAAAFAAAAAAAQAQAAAQBAoAIAAAAAAAgAABE=</HashCode>
+      <FileName>Hardware\DBHardwareBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.frmDeviceItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCACAgggECAAAhAAEACAIAQCCgEIgAACABQJIAQAAQQ=</HashCode>
+      <FileName>Hardware\frmDeviceItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xdgk.Communi.frmDeviceSelect" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgACAAAAAQAACQIAAKAEAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\frmDeviceSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.frmStationItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSCWAAAAECkMBBgAECiEACCiCggAAAAAARQBAAAAAAE=</HashCode>
+      <FileName>Hardware\frmStationItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Xdgk.Communi.StationDiscriminateMode" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\frmStationItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.HardwareChangedEventArgs" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAABAQAAAAAAAAAAAEAAAAAAAAAAIAgAAAA=</HashCode>
+      <FileName>Hardware\HardwareEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.HardwareManager" Collapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAAEAQQEAAEAQAAACAAAABIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.HardwareUI" Collapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAgAAAIMAAAAAAAAAAAAAABAAAABAAAEAAgAAgA=</HashCode>
+      <FileName>Hardware\HardwareUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.IDataCollection" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDataCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ModbusParameterDefine" Collapsed="true">
+    <Position X="11.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ModbusParamDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ParameterDefineCollection" Collapsed="true">
+    <Position X="3.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModbusParamDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ModbusParamterDefineCollection" Collapsed="true">
+    <Position X="3.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModbusParamDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.NameObjectCollection" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NameObjectCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.NewConnectEventArgs" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQAAAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAA=</HashCode>
+      <FileName>NewConnectEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Opera" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAJAAAQAAAAAAEAAAAAAQAAAAAEEAKAAQACAAEAQA=</HashCode>
+      <FileName>Opera\Opera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.OperaCollection" Collapsed="true">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Opera\OperaCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Parameter" Collapsed="true">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ParameterCollection" Collapsed="true">
+    <Position X="32.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ParameterDefine" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIEAAAAAAACQAIAAAQEQAAAAAAAAQACAAAAAIAQI=</HashCode>
+      <FileName>ParameterDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ParseResult" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAABAAAAAAAAAAAAAAAiQAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SuccessResult" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.LengthErrorResult" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAAAEAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CRCErrorResult" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAAAEAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ConvertErrorResult" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAEAAAAAAAAAAAAAIAAABAkACAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.AddressErrorResult" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAAAEAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.DataErrorResult" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAAAEAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.NoNameParseResult" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAAAEAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ParseResultCollection" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParseResultCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ReceivePart" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAIAAAAAAAAAAABAAABAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>ReceivePart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ReceivePartCollection" Collapsed="true">
+    <Position X="22.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReceivePartCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SendPart" Collapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAACAAAAAAAAACAAABAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>SendPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SerialPortSetting" Collapsed="true">
+    <Position X="27.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAABAAAgAAAACAAAAAAAEAAAUAAA=</HashCode>
+      <FileName>SerialPortSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketListener" Collapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACCAAAAAAAAEiAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
+      <FileName>SocketListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketListenerCollection" Collapsed="true">
+    <Position X="32.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SocketListenerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.SocketListenerManager" Collapsed="true">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAYAAAQAEAAAAAADEAEAAACAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>SocketListenerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Station" Collapsed="true">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIAAgAAAoiAAAQABAAQQEQABAAQAAQBAAAABCCAA=</HashCode>
+      <FileName>Station\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.StationCollection" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAQAAAAAAAAAAAAAAFAAAUAAAAAAA=</HashCode>
+      <FileName>Station\StationCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.StationCommuniPortBinder" Collapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Station\StationCommuniPortBinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.strings" Collapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIoABSBCgAoBBEEABEAQQASEACRAAADAoIQgAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Strategy" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAAAAAAAAAAAQAEAEAAAEAAAAAgAAA=</HashCode>
+      <FileName>Task\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CycleStrategy" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQQCAACAEAAAAAAAAAAAAAEAAAECAAAEgAIA=</HashCode>
+      <FileName>Task\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ImmediateStrategy" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAEAAAAAgAAA=</HashCode>
+      <FileName>Task\Strategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Task" Collapsed="true">
+    <Position X="27.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgBAAABAAAgAACQAACAAAAAAAoQoAAEAiQBAggAA=</HashCode>
+      <FileName>Task\Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskCollection" Collapsed="true">
+    <Position X="29.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEBAAAAEAAAAAAABAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Task\TaskCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskDefine" Collapsed="true">
+    <Position X="31" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAQAgAAAICAABAAAAAAAIAAEAAAAAAQAAAQAA=</HashCode>
+      <FileName>Task\TaskDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskDefineCollection" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAQAAAAAAAEAA=</HashCode>
+      <FileName>Task\TaskDefineCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskDefineManager" Collapsed="true">
+    <Position X="17" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAEAAAAAAGAAAAAAAAgAAAAAAAAQAAAA=</HashCode>
+      <FileName>Task\TaskDefineManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.TaskManager" Collapsed="true">
+    <Position X="27.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAIADSAkUAEBAAAEACAAgkBCIAAIJAAoIRRACAAA=</HashCode>
+      <FileName>Task\TaskManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.StrategyDefine" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Task\TaskStrategyDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.CycleStrategyDefine" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Task\TaskStrategyDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.ImmediateStrategyDefine" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Task\TaskStrategyDefine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.UIManager" Collapsed="true">
+    <Position X="29.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAASAEAAAAAAAAAAEAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>UIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.UnDefineDeviceTypeCollection" Collapsed="true">
+    <Position X="31" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>UnDefineDeviceTypeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.OperaFactoryBase" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAQAEAAAAAAAAAAAAAAAEAACAAABAAAAAA=</HashCode>
+      <FileName>Factory\OperaFactoryBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.StrategyFactory" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\StrategyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.CycleStrategyFactory" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\StrategyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.TaskFactory" Collapsed="true">
+    <Position X="22.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\TaskFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.TaskFactoryCollection" Collapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\TaskFactoryCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.XmlOperaFactory" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAAAAAAAAAAAAACIAAAAACAEIACIAAAAAAEJA=</HashCode>
+      <FileName>Factory\XmlOperaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Factory.MyOperaFactory" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAAAAAgAAAAAAACAAAAAAAAEIAAIAAAAAAEBA=</HashCode>
+      <FileName>Factory\XmlOperaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.Processor.DeviceProcessor" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Processor\DeviceProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.ConstraintBuilder" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\ConstraintBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.DeviceDefineNodeNames" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cAAABJBgQBAAAAACgABAAABAAAAAEIACAAAoAAAAgCA=</HashCode>
+      <FileName>XmlBuilder\DeviceDefineNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.HardwareNodeNames" Collapsed="true">
+    <Position X="31" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAIAAAAAgAAEQCAYQQAAAAEAAACCAAAAAACCEA=</HashCode>
+      <FileName>XmlBuilder\HardwareNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.ParameterNodeNames" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAAAAAQAIAACAAQAAAAAEAAAAAAAAAAAgAA=</HashCode>
+      <FileName>XmlBuilder\HardwareNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.NameValueNodeNames" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAACAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\HardwareNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.ConstraintNodeNames" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAQAAAAKAAAAACAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\HardwareNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.TaskFactoryNodeNames" Collapsed="true">
+    <Position X="25.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAIAAAAAAACAAAgAAAAAIAAAAQAgAAAAA=</HashCode>
+      <FileName>XmlBuilder\TaskFactoryNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlDeviceDefineBuild" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAgAIAAAAAAAQAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlDeviceDefineBuild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlDeviceDefinePathBuild" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlDeviceDefinePathBuild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlHardwareBuilder" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABBAQAAAAAAAAAAQAAgAIBAAAEAEAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlHardwareBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlListenBuilder" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlListenBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlListenNodeNames" Collapsed="true">
+    <Position X="32.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlListenNodeNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlNameValueBuilder" Collapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlModbusParameterDefineBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlModbusParameterDefineBuilder" Collapsed="true">
+    <Position X="17" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlModbusParameterDefineBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlSocketCommuniBuilder" Collapsed="true">
+    <Position X="20.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlSocketCommuniBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Xdgk.Communi.XmlBuilder.XmlTaskFactoryCollectionBuilder" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAEAAgAAAgAAAQEAAAAAAAAA=</HashCode>
+      <FileName>XmlBuilder\XmlTaskFactoryCollectionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Xdgk.Communi.IDeviceFactory" Collapsed="true">
+    <Position X="20.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAA=</HashCode>
+      <FileName>Device\DeviceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xdgk.Communi.IStationForm" Collapsed="true">
+    <Position X="27.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAEAAgAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xdgk.Communi.IDeviceForm" Collapsed="true">
+    <Position X="22.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAEAAgAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xdgk.Communi.IAlarmData" Collapsed="true">
+    <Position X="17" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xdgk.Communi.IData" Collapsed="true">
+    <Position X="18.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Xdgk.Communi.IDevicePlugin" Collapsed="true">
+    <Position X="24" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Plugin\DevicePlugin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Xdgk.Communi.ParseResultEnum" Collapsed="true">
+    <Position X="25.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommuniDetail.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xdgk.Communi.DiscriminateMode" Collapsed="true">
+    <Position X="20.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommuniType\DiscriminateMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xdgk.Communi.DataFieldOption" Collapsed="true">
+    <Position X="18.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAACAAAACABAkAAAAAAA=</HashCode>
+      <FileName>DataField\DataField.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xdgk.Communi.ChangedType" Collapsed="true">
+    <Position X="17" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xdgk.Communi.HardwareChangedType" Collapsed="true">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareEvents.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Xdgk.Communi.HardwareType" Collapsed="true">
+    <Position X="24" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareEvents.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Xdgk.Communi.NotFindCommuniPortEventHandler" Collapsed="true">
+    <Position X="27.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.TaskExecutingEventHandler" Collapsed="true">
+    <Position X="31" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.TaskExecutedEventHandler" Collapsed="true">
+    <Position X="29.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.ExceptionEventHandler" Collapsed="true">
+    <Position X="20.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.CommuniPortReceivedEventHandler" Collapsed="true">
+    <Position X="18.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.FDEventHandler" Collapsed="true">
+    <Position X="22.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.CollectionChangedEventHandler" Collapsed="true">
+    <Position X="17" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.HardwareChangedEventHandler" Collapsed="true">
+    <Position X="24" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hardware\HardwareEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Xdgk.Communi.NewConnectEventHandler" Collapsed="true">
+    <Position X="25.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewConnectEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

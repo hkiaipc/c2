@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ABC04A06-B320-4662-A500-6FB8ECBFAFF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Xdgk.Communi</RootNamespace>
+    <AssemblyName>Xdgk.Communi</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\GlobalAssembly\NLog\.NET Framework 2.0\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xdgk.Common, Version=0.0.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\GlobalAssembly\Xdgk.Common\Xdgk.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Xdgk.Communi.Interface, Version=0.0.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\GlobalAssembly\Xdgk.Communi.Interface\Xdgk.Communi.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder\DeviceDefineBuilderBase.cs" />
+    <Compile Include="Builder\HardwareBuilderBase.cs" />
+    <Compile Include="Builder\ListenBuilderBase.cs" />
+    <Compile Include="Builder\TaskFactoryCollectionBuilder.cs" />
+    <Compile Include="BytesConverter\BytesConverterCollection.cs" />
+    <Compile Include="BytesConverter\BytesConverterManager.cs" />
+    <Compile Include="CommuniFailDetail.cs" />
+    <Compile Include="CommuniFailDetailCollection.cs" />
+    <Compile Include="CommuniSoft\CommuniSoftFactory.cs" />
+    <Compile Include="CRC\CRCerCollection.cs" />
+    <Compile Include="CRC\CRCerManager.cs" />
+    <Compile Include="Device\DeviceDefine.cs" />
+    <Compile Include="Device\DeviceDefineCollection.cs" />
+    <Compile Include="Device\DeviceState.cs" />
+    <Compile Include="Device\DeviceViewCollection.cs" />
+    <Compile Include="CommuniType\DiscriminateMode.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="Exception\ConfigException.cs" />
+    <Compile Include="Factory\OperaFactoryBase.cs" />
+    <Compile Include="Factory\StrategyFactory.cs" />
+    <Compile Include="Factory\TaskFactory.cs" />
+    <Compile Include="Factory\TaskFactoryCollection.cs" />
+    <Compile Include="Factory\XmlOperaFactory.cs" />
+    <Compile Include="FDManager.cs" />
+    <Compile Include="IDataCollection.cs" />
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="NameObjectCollection.cs" />
+    <Compile Include="NewConnectEvents.cs" />
+    <Compile Include="Opera\OperaCollection.cs" />
+    <Compile Include="ParseResultCollection.cs" />
+    <Compile Include="ReceivePartCollection.cs" />
+    <Compile Include="Station\StationCommuniPortBinder.cs" />
+    <Compile Include="strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIManager.cs" />
+    <Compile Include="XmlBuilder\DeviceDefineNodeNames.cs" />
+    <Compile Include="XmlBuilder\XmlDeviceDefineBuild.cs" />
+    <Compile Include="XmlBuilder\HardwareNodeNames.cs" />
+    <Compile Include="XmlBuilder\TaskFactoryNodeNames.cs" />
+    <Compile Include="XmlBuilder\XmlListenBuilder.cs" />
+    <Compile Include="XmlBuilder\XmlListenNodeNames.cs" />
+    <Compile Include="XmlBuilder\XmlSocketCommuniBuilder.cs" />
+    <Compile Include="XmlBuilder\XmlTaskFactoryCollectionBuilder.cs" />
+    <Compile Include="ParseResult.cs" />
+    <Compile Include="CommuniPort\CommuniPort.cs" />
+    <Compile Include="CommuniPort\CommuniPortCollection.cs" />
+    <Compile Include="CommuniPort\CommuniPortManager.cs" />
+    <Compile Include="CommuniSoft\CommuniSoft.cs" />
+    <Compile Include="CommuniType\CommuniType.cs" />
+    <Compile Include="DataField\DataField.cs" />
+    <Compile Include="DataField\DatafieldCollection.cs" />
+    <Compile Include="DataField\DatafieldManager.cs" />
+    <Compile Include="Device\Device.cs" />
+    <Compile Include="Device\DeviceCollection.cs" />
+    <Compile Include="CommuniPort\GprsCommuniPort.cs" />
+    <Compile Include="CommuniType\SocketCommuniType.cs" />
+    <Compile Include="Hardware\HardwareManager.cs" />
+    <Compile Include="Opera\Opera.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceivePart.cs" />
+    <Compile Include="SendPart.cs" />
+    <Compile Include="CommuniPort\SerialCommuniPort.cs" />
+    <Compile Include="CommuniType\SerialCommuniType.cs" />
+    <Compile Include="CommuniPort\SocketCommuniPort.cs" />
+    <Compile Include="SocketListener.cs" />
+    <Compile Include="SocketListenerCollection.cs" />
+    <Compile Include="SocketListenerManager.cs" />
+    <Compile Include="Station\Station.cs" />
+    <Compile Include="Station\StationCollection.cs" />
+    <Compile Include="Task\Strategy.cs" />
+    <Compile Include="Task\Task.cs" />
+    <Compile Include="Task\TaskCollection.cs" />
+    <Compile Include="Task\TaskManager.cs" />
+    <Compile Include="Builder\CommuniSoftBuilder.cs" />
+    <Compile Include="XmlBuilder\XmlHardwareBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\spu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\dpu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\hdf.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Doc\History.txt" />
+    <Content Include="Doc\Todo.txt" />
+    <Content Include="Xml\Filter.xml" />
+    <Content Include="Xml\Hardware.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\ListenPort.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\Task.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Xml\devicedefine.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmCommuniDetails.resx">
+      <DependentUpon>frmCommuniDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardware\frmDeviceItem.resx">
+      <DependentUpon>frmDeviceItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardware\frmDeviceSelect.resx">
+      <DependentUpon>frmDeviceSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hardware\frmStationItem.resx">
+      <DependentUpon>frmStationItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="CommuniDetail.cs" />
+    <Compile Include="CommuniPort\CommuniPortFactory.cs" />
+    <Compile Include="CommuniPort\CommuniPortState.cs" />
+    <Compile Include="CommuniPort\SerialCommuniPortState.cs" />
+    <Compile Include="CommuniPort\SocketCommuniPortState.cs" />
+    <Compile Include="CommuniType\CommuniTypeFactory.cs" />
+    <Compile Include="CommuniType\SerialCommuniTypeNodeNames.cs" />
+    <Compile Include="CommuniType\SocketCommuniTypeNodeNames.cs" />
+    <Compile Include="Config\Config.cs" />
+    <Compile Include="Device\DeviceFactory.cs" />
+    <Compile Include="Device\DeviceFactoryCollection.cs" />
+    <Compile Include="Device\DeviceFactoryManager.cs" />
+    <Compile Include="DPU\DPU.cs" />
+    <Compile Include="DPU\DPUCollection.cs" />
+    <Compile Include="DPU\DPUManager.cs" />
+    <Compile Include="DPU\DPUManagerFactory.cs" />
+    <Compile Include="Error\Error.cs" />
+    <Compile Include="Error\ErrorCollection.cs" />
+    <Compile Include="Error\ErrorManager.cs" />
+    <Compile Include="Exception.cs" />
+    <Compile Include="Filter\Filter.cs" />
+    <Compile Include="Filter\FilterCollection.cs" />
+    <Compile Include="Filter\FilterDefine.cs" />
+    <Compile Include="Filter\FilterDefineCollection.cs" />
+    <Compile Include="Filter\FilterManager.cs" />
+    <Compile Include="Forms\frmCommuniDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCommuniDetails.Designer.cs">
+      <DependentUpon>frmCommuniDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\DBHardwareBuilder.cs" />
+    <Compile Include="Hardware\frmDeviceItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardware\frmDeviceItem.Designer.cs">
+      <DependentUpon>frmDeviceItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\frmDeviceSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardware\frmDeviceSelect.Designer.cs">
+      <DependentUpon>frmDeviceSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\frmStationItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hardware\frmStationItem.Designer.cs">
+      <DependentUpon>frmStationItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hardware\HardwareEvents.cs" />
+    <Compile Include="Hardware\HardwareFactory.cs" />
+    <Compile Include="Hardware\HardwareUI.cs" />
+    <Compile Include="ModbusParamDefine.cs" />
+    <Compile Include="ModbusParamDefineCollection.cs" />
+    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="ParameterDefine.cs" />
+    <Compile Include="Plugin\DevicePlugin.cs" />
+    <Compile Include="Processor\DeviceProcessor.cs" />
+    <Compile Include="SerialPortSetting.cs" />
+    <Compile Include="SPU\SPU.cs" />
+    <Compile Include="SPU\SPUCollection.cs" />
+    <Compile Include="SPU\SPUFactory.cs" />
+    <Compile Include="SPU\SPUManager.cs" />
+    <Compile Include="SPU\SPUManagerFactory.cs" />
+    <Compile Include="Task\TaskDefine.cs" />
+    <Compile Include="Task\TaskDefineCollection.cs" />
+    <Compile Include="Task\TaskDefineManager.cs" />
+    <Compile Include="Task\TaskStrategyDefine.cs" />
+    <Compile Include="Task\XmlTaskDefineBuilder.cs" />
+    <Compile Include="TypeHelp.cs" />
+    <Compile Include="UnDefineDeviceTypeCollection.cs" />
+    <Compile Include="XmlBuilder\ConstraintBuilder.cs" />
+    <Compile Include="XmlBuilder\XmlDeviceDefinePathBuild.cs" />
+    <Compile Include="XmlBuilder\XmlModbusParameterDefineBuilder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resource\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

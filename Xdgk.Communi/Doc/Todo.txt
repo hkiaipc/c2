@@ -1,0 +1,2 @@
+﻿2010-11-11
+1. add HDDTUSocketCommuniPort
